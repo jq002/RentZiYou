@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 添加充电位 -->
+    <string name="add_chargeaddress_hint">填写充电位的具体地址(如XX小区地下停车场130号)</string>
+    <string name="add_bianhao_hint">填写充电桩的编号(如ZFG00234)</string>
+    <string name="app_name">出租版</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">退出</string>
+    <string name="hello">Hello World, MyWeiXinActivity!</string>
+    <string name="main_title">自由充</string>
+    <string name="main_login">登录</string>
+    <string name="main_regist">注册</string>
+    <string name="confirm">确认</string>
+    <string name="login_style">登入类型</string>
+    <string name="main_regist_company">物业注册</string>
+    <string name="explain_company">物业注册是由物业申请注册，注册中的每个私人充电位订单，物业都将获得收益</string>
+    <string name="main_regist_self">个人注册</string>
+    <string name="explain_self">个人注册是由个人申请注册，收益归私人所有</string>
+    <string name="login_user_hint">请输入您的手机号/物业账号</string>
+    <string name="regist_user_company">请输入物业账号</string>
+    <string name="regist_user_name">请输入小区名称</string>
+    <string name="regist_user_tel">请输入物业电话</string>
+    <string name="login_passwd_hint">密码</string>
+    <string name="login_forget_passwd">忘记密码?</string>
+    <string name="title_activity_register">欢迎注册</string>
+    <string name="verification">请输入验证码</string>
+    <string name="getverif">获取验证码</string>
+    <string name="judgevfc">提交验证码</string>
+    <string name="title_activity_user_inter_face">填写密码</string>
+    <string name="writepw">请输入你的密码</string>
+    <string name="writepwagain">请再次输入你的密码</string>
+    <string name="register">注册</string>
+    <string name="title_activity_suc_register">注册成功</string>
+    <string name="exit">退出</string>
+    <string name="title_activity_login">欢迎登入</string>
+    <string name="regist_code">验证码</string>
+    <string name="regist_change">换一张</string>
+    <string name="title_activity_face">FaceActivity</string>
+    <string name="title_activity_lookmain">主界面</string>
+    <string name="self">个人资料管理</string>
+    <string name="add_car">添加充电位</string>
+    <string name="check_money">查看收益</string>
+    <string name="manage_car">管理充电位</string>
+    <string name="manage_carport">管理车场</string>
+    <string name="out">注销</string>
+    <string name="old_pwd">旧密码:</string>
+    <string name="new_pwd_again">再次输入新密码:</string>
+    <string name="new_pwd">新密码:</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_choose_registe">选择注册类型</string>
+    <string name="title_activity_register_company">物业注册</string>
+    <string name="title_activity_user_inter_face_company">物业注册</string>
+    <string name="title_activity_changepwd">更改密码</string>
+    <string name="tap_instructions">点击或者长按地图</string>
+    <string name="note">你尚未选择停车场</string>
+    <string name="note2">添加停车场位置：</string>
+    <string name="perfect_info">请完成您的充电位</string>
+    <string name="partnote">您的充电位类型</string>
+    <string name="please">请完善你的充电位信息</string>
+    <string name="heip_address">充电位帮助信息</string>
+    <string name="telephone">请输入你的手机号</string>
+    <string name="start_title">示例代码</string>
+    <string name="base_function">基本功能</string>
+    <string name="hud_title">HUD显示</string>
+    <string name="extend_title">扩展功能</string>
+    <string name="extend_navi_navi">自定义导航</string>
+    <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="start_hud_navi">HUD显示</string>
+    <string name="complex_function">综合展示</string>
+    <string name="navi_empty_car">"驾   车"</string>
+    <string name="navi_empty_foot">"步   行"</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+    <string name="start_navi_navi">实时导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+    <string name="setting">设置</string>
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="yes">"  是  "</string>
+    <string name="no">"  否  "</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="daynightmode">"昼夜模式    "</string>
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路展示</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+    <string name="routeinfo_1">全程 </string>
+    <string name="routeinfo_2">公里/</string>
+    <string name="routeinfo_3">"分钟    收费"</string>
+    <string name="routeinfo_4">元</string>
+    <string name="routeinfo_default">--</string>
+    <string name="app_id">输入您讯飞的appid</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <string-array name="parktype">
+        <item>个人充电位</item>
+        <item>公共充电位</item>
+    </string-array>
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="abc">abc</string>
+    <string name="schOrder">查看我的订单</string>
+    <string name="jsonname">从服务器端获取Json数据并且解析</string>
+    <string name="startOrder">开始充电</string>
+    <string name="ordertime">下单时间:</string>
+    <string name="address2">充电位地址:</string>
+    <string name="parkingid">订单号:</string>
+    <string name="judge_add">添加</string>
+    <string name="add_parkname_hint">填写充电站的名字(如:XX小区)</string>
+    <string name="add_parkaddress_hint">填写充电站的具体地址(如:XX市XX区XX街道XXX号XX小区)</string>
+    <string name="add_helpaddress_hint">填写充电站的帮助地址(可以填写附近的标志性建筑)</string>
+    <string name="add_carportaddress_hint">填写充电位的具体地址(如XX小区地下停车场130号)</string>
+    <string name="addnewpark">添加新充电站</string>
+    <string name="addnewcarport">添加新充电位</string>
+    <string name="addCarportnum">选择添加充电位的数量</string>
+    <string name="begin">开始时间</string>
+    <string name="end">结束时间</string>
+    <string name="setMoney">每小时收费:</string>
+    <string name="set_money_hint"> 如:8.8</string>
+    <string name="choosePlan">选择收费分配方案</string>
+    <string name="beginRent">开始充电时间</string>
+    <string name="endRent">结束充电时间</string>
+    <string name="successPercent">成功率:  </string>
+    <string name="week">星期:  </string>
+    <string name="state">充电位状态:  </string>
+    <string name="seeHour">查看充电时段 </string>
+    <string name="deleteCarport">删除充电位  </string>
+    <string name="schMyCarport">修改 </string>
+    <string name="select_album">选择相册</string>
+    <string name="select_image">选择图片</string>
+    <string name="latest_image">最近照片</string>
+    <string name="photo_album">相册</string>
+    <string name="main_confirm">确定</string>
+    <string name="main_cancel">取消</string>
+    <string name="main_back">返回</string>
+    <string name="title_activity_input_locate">输入添加充电位的地址</string>
+    <string name="title_activity_select_locate">添加新车场或充电位</string>
+    <string name="title_activity_add_com_carport">AddComCarportActivity</string>
+    <string name="title_activity_add_per_carport">向车场中添加充电位</string>
+    <string name="title_activity_uploat_photo">UploatPhotoActivity</string>
+    <string name="title_activity_add_park">确认停车场位置</string>
+    <string name="title_activity_add_hour_money">添加充电时段</string>
+    <string name="title_activity_add_new_parklot">完善车场信息</string>
+    <string name="title_activity_view_per_data">个人资料</string>
+    <string name="title_activity_edit_per_data">编辑个人资料</string>
+    <string name="title_activity_mage_my_carport">管理我的充电位</string>
+    <string name="title_activity_simple_adapter">SimpleAdapter</string>
+    <string name="title_activity_mage_car_list">MageCarListActivity</string>
+    <string name="title_activity_alter_carport">AlterCarportActivity</string>
+    <string name="title_activity_alter_hour">管理充电位充电时段</string>
+    <string name="title_activity_photo_wall"></string>
+    <string name="title_activity_photo_album"></string>
+    <string name="title_activity_select_locate2">SelectLocate2Activity</string>
+    <string name="title_activity_select_locate_t">SelectLocateTActivity</string>
+    <string name="title_activity_uploat_parklot">选择车场图片</string>
+    <string name="title_activity_alter_hour_money">AlterHourMoneyActivity</string>
+    <string name="title_activity_mage_income_list">MageIncomeListActivity</string>
+    <string name="title_activity_look_income">LookIncomeActivity</string>
+    <string name="title_activity_mage_car_list2">MageCarList2Activity</string>
+    <string name="title_activity_choose_register">欢迎注册</string>
+    <string name="title_activity_show_map">ShowMapActivity</string>
+    <string name="title_activity_order_main">OrderMainActivity</string>
+    <string name="title_activity_my_user_info">MyUserInfoActivity</string>
+    <string name="title_activity_update_nick">UpdateNickActivity</string>
+    <string name="title_activity_my_charging_pos">MyChargingPosActivity</string>
+    <string name="title_activity_my_credit_score">MyCreditScoreActivity</string>
+    <string name="title_activity_my_money_bag">MyMoneyBagActivity</string>
+    <string name="title_activity_my_setting">MySettingActivity</string>
+    <string name="title_activity_add_charge_station">AddChargeStationActivity</string>
+    <string name="title_activity_add_charge_position">AddChargePositionActivity</string>
+    <string name="title_activity_uploat_station">UploatStationActivity</string>
+    <string name="title_activity_add_hour">AddHourActivity</string>
+    <string name="title_activity_uploat_station2">UploatStation2Activity</string>
+
+</resources>

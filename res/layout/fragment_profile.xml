@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="#1E90FF"  >
+
+        
+
+    
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            
+            android:text="我"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        
+       
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="18dp"
+          android:clickable="true"
+        android:layout_marginTop="16dp"
+         android:background="@drawable/btn_list_item_bg"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" >
+
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"            
+            android:text="13074886694"
+            android:textColor="#AAAAAA"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_chongdian"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_xiangce"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/chewei1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_xiangce"
+            android:text="充电位"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_xinyong"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_shoucang"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/xinyongzhi1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_shoucang"
+            android:text="信用值"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+<RelativeLayout
+
+        android:id="@+id/re_money_bag"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_money_bag"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_money_bag"
+            android:text="钱包"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="12dp"
+            android:background="#dadada" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/re_setting"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_list_item_bg"
+        android:clickable="true"
+        android:paddingLeft="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_setting"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/akf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/iv_setting"
+            android:text="设置"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

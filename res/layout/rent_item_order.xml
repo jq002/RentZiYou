@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_round_frame"
+    android:padding="5dp" 
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/station_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="阳光车场"
+            android:textSize="18sp" />
+
+
+        
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB" />
+    <RelativeLayout
+        android:id="@+id/re_xiang"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical" >
+        
+        
+
+     
+        <TextView
+            android:id="@+id/order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            
+            android:layout_marginLeft="16dp"
+            
+            android:gravity="center"
+            android:text="¥2.5"
+            android:textColor="#CC3300"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/order_price"
+           android:layout_marginLeft="16dp"
+            
+            android:gravity="center"
+            android:text="下单时间：2015-10-16 20:27:42"
+            android:textColor="@color/darkgrey"
+            android:textSize="14sp" />
+           <TextView
+            android:id="@+id/position_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/order_time"
+             
+            android:layout_marginLeft="16dp"
+           
+            android:gravity="center"
+            android:text="集美区银江路155号"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical" >
+
+        
+        <Button
+            android:id="@+id/goto_item"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/pay_state"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/main_login_selector"
+            android:text="确认出租"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

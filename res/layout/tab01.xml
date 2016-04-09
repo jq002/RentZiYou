@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#EBEBEB" 
+    android:orientation="vertical" >
+   <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="#1E90FF" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="订单管理"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+
+            android:text="编辑"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        
+       
+    </RelativeLayout>
+    
+    <ListView android:id="@+id/listview"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10px"
+        android:divider="#EBEBEB"  
+    android:dividerHeight="10px">
+    </ListView>
+
+</LinearLayout>

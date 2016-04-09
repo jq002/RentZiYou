@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view1"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginTop="10dp"
+	android:background="@drawable/bg_round_frame"
+	android:focusable="false"
+	android:descendantFocusability="blocksDescendants" 
+	  >
+
+<TextView 
+    android:id="@+id/carAddress"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="19dp"
+	
+	android:layout_alignParentLeft="true"
+	android:text="陆大楼充电站"
+	android:layout_margin="10dp"
+	android:focusable="false"
+	/>
+<TextView 
+    android:id="@+id/car"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="19dp"
+	
+	android:layout_toRightOf="@id/carAddress"
+	android:layout_margin="10dp"
+	android:text="--12号充电位"
+	android:focusable="false"
+	/>
+
+
+ <TextView 
+    android:id="@+id/money"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="22dp"
+	android:textColor="#CC3300"
+	android:layout_below="@id/carAddress"
+    android:layout_alignParentLeft="true"
+	android:text="¥25.5"
+	android:layout_marginLeft="10dp"
+	android:focusable="false"
+	/>
+
+
+
+
+ 
+<TextView 
+    android:id="@+id/time"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="19dp"
+	android:textColor="#708090"
+	android:layout_below="@id/money"
+	android:layout_marginTop="10dp"
+	android:layout_margin="10dp"
+	android:text="2016-03-29 10:21:19"
+	android:focusable="false"
+	/>
+
+ 
+
+
+ <!--   <TextView 
+    android:id="@+id/ableWeekday"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="17dp"
+	android:textColor="#708090"
+	android:layout_below="@id/carState"
+	android:text="星期:"
+	/>
+<TextView 
+    android:id="@+id/weekday"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="17dp"
+	android:textColor="#708090"
+	android:layout_below="@id/time_price"
+	android:layout_toRightOf="@id/ableWeekday"
+	/> 
+    <com.tools.CheckSwitchButton
+        android:id="@+id/mCheckSwithcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="false" 
+        android:layout_below="@id/ableWeekday"/>	 -->
+
+
+
+
+
+
+</RelativeLayout>
+

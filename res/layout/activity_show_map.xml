@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:orientation="vertical"
+    >
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >  
+   <AutoCompleteTextView
+            android:id="@+id/keyWord2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"  
+             android:layout_weight="1"
+             android:textSize="19sp"
+            android:hint="请输入车场位置"            
+            android:textColor="#000000"
+          />
+    <Button
+            android:id="@+id/search2"
+            android:layout_width="wrap_content"
+      
+            android:layout_height="40dp"
+            android:text="搜索" 
+             android:background="@drawable/main_login_selector"
+	        android:textColor="#ffffff"/>
+</LinearLayout>
+
+     <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <FrameLayout
+                android:id="@+id/maptab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+     <com.amap.api.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+                <RadioGroup
+                    android:id="@+id/gps_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        
+                        android:text="大"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/mid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="中"
+                        android:checked="true"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/big"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="小"
+                        android:textColor="@android:color/black" />
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/gps_angle_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="320dp"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/low"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="30°"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/middle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="60°"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/high"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90°"
+                        android:textColor="@android:color/black" />
+
+                </RadioGroup>
+                
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/addpark" />
+
+            <ImageButton
+                android:id="@+id/imagebutton2"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+               
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imagebutton"
+                android:background="@drawable/zhucaidan_press" />
+
+</RelativeLayout>
+
+            </FrameLayout>
+
+          
+        </FrameLayout>
+        
+    
+</LinearLayout>

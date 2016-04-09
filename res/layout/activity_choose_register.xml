@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+     >
+
+	<EditText 
+	    android:id="@+id/login_user_edit"
+	    android:layout_width="300dp"
+	    android:layout_height="45dp"
+
+        android:paddingLeft="10dp"
+	    android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginLeft="10dp"
+	    android:background="@drawable/login_selector"
+	    android:hint="@string/login_user_hint"/>
+	 <TextView
+	         android:id="@+id/trytxt"
+	         android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_toRightOf="@+id/login_user_edit"
+	       android:layout_alignTop="@+id/login_user_edit"
+	       android:textSize="15sp"
+	         />
+	<RelativeLayout 
+	    android:id="@+id/get_vfc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:layout_below="@+id/login_user_edit"
+	    >  
+	       
+	<Button
+	        android:id="@+id/get_getverif"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_alignParentRight="true"
+	        android:text="@string/getverif"
+	        android:background="@drawable/main_login_selector"
+	        android:textColor="#ffffff"
+	        />
+</RelativeLayout>
+	<EditText 
+	    android:id="@+id/login_vfc_edit"
+	    android:layout_width="300dp"
+	    android:layout_height="45dp"
+	    android:layout_below="@+id/get_vfc"
+	    android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginLeft="10dp"
+	    android:paddingLeft="10dp"
+	    android:background="@drawable/login_selector"
+	    android:hint="@string/verification"/>
+<RelativeLayout 
+         android:id="@+id/get_qwe"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dp"
+	    android:layout_below="@+id/login_vfc_edit"
+	    >
+	
+	     <Button
+	        android:id="@+id/judge_vfc"
+	        android:layout_width="100dp"
+	        android:layout_height="40dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_alignParentRight="true"
+	        android:text="@string/judgevfc"
+	        android:background="@drawable/main_login_selector"
+	        android:textColor="#ffffff"
+	        />
+	
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="item_title">
+  <!--  <item>个人资料管理</item>
+        <item>添加车位</item>
+        <item>查看收益</item>
+        <item>管理车位</item>
+        <item>管理车场</item>  -->  
+    </string-array>   
+    <integer-array name="item_icon_res">
+        <item>@drawable/ic_drawer_self</item>
+        <item>@drawable/ic_drawer_add_car</item>
+        <item>@drawable/ic_drawer_check_money</item>
+        <item>@drawable/ic_drawer_manage_car</item>
+        <item>@drawable/ic_drawer_manage_carport</item>
+        </integer-array>
+</resources>
